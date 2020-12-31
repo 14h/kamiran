@@ -12,6 +12,9 @@ export default function Media({projects}) {
         <>
             <Layout>
                 <Head>
+                    <title>
+                        Kamiran Khalil
+                    </title>
                 </Head>
                 <Container>
                     <Header selected='media' />

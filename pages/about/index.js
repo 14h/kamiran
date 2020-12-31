@@ -2,6 +2,7 @@ import Container from '../../components/container'
 import Layout from '../../components/layout'
 import Head from 'next/head'
 import Header from "../../components/header";
+import React from "react";
 
 export default function About() {
     let lang = 'en';
@@ -10,6 +11,9 @@ export default function About() {
         <>
             <Layout>
                 <Head>
+                    <title>
+                        Kamiran Khalil
+                    </title>
                 </Head>
                 <Container>
                     <Header selected='about'/>
