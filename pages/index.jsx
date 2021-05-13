@@ -16,12 +16,12 @@ export default function Index({assets}) {
                         Kamiran Khalil
                     </title>
                 </Head>
-                <Container>
-                    <Header/>
-                    <Slider
-                        slides={assets}
-                    />
-                </Container>
+                {/*<Container>*/}
+                {/*    <Header/>*/}
+                {/*    <Slider*/}
+                {/*        slides={assets}*/}
+                {/*    />*/}
+                {/*</Container>*/}
             </Layout>
         </div>
     )
