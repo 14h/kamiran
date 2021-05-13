@@ -8,10 +8,6 @@ body {
     color: #10101d;
 }
 
-.bg-black {
-    background-color: #10101d;
-}
-
 .top-20 {
     top: 5rem;
 }
@@ -173,7 +169,7 @@ header .social .btn {
     position: relative;
 }
 #timeline .timeline-item .timeline-icon {
-    color: #FFF;
+    color: #000;
     padding-top: 14px;
     background: #ee4d4d;
     width: 50px;
@@ -375,5 +371,3 @@ header .social .btn {
         margin-top: 100px;
     }
 }
-
-

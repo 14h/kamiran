@@ -5,7 +5,7 @@ export default function Header({selected}) {
 
     return (
         <div
-            className='bg-black text-white fixed top-0 left-0 right-0 z-50'
+            className='fixed top-0 left-0 right-0 z-50'
         >
             <div
                 className="container-l mx-auto lg:flex flex-row justify-between items-center"
