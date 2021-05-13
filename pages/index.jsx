@@ -3,10 +3,14 @@ import Layout from '../components/layout';
 import Head from 'next/head';
 import React from 'react';
 import Header from "../components/header";
-import {get_assets} from "../lib/api";
+import {get_assets, get_main} from "../lib/api";
 import Slider from "../components/slider";
 
-export default function Index({assets}) {
+export default function Index({main}) {
+    console.log(main)
+    if (!main) {
+        return null;
+    }
 
     return (
         <div className='overflow-y-hidden'>
@@ -19,7 +23,7 @@ export default function Index({assets}) {
                 {/*<Container>*/}
                 {/*    <Header/>*/}
                 {/*    <Slider*/}
-                {/*        slides={assets}*/}
+                {/*        slides={main}*/}
                 {/*    />*/}
                 {/*</Container>*/}
             </Layout>
@@ -28,11 +32,11 @@ export default function Index({assets}) {
 }
 
 export async function getStaticProps() {
-    const assets = await get_assets();
+    const main = await get_main();
 
     return {
         props: {
-            assets
+            main
         },
     }
 }
