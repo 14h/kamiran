@@ -11,14 +11,14 @@ export default function Header({selected}) {
                 className="container-l mx-auto lg:flex flex-row justify-between items-center"
             >
                 <Link href="/">
-                    <div className='flex flex-row justify-center items-center m-8 ml-16'>
+                    <div className='flex flex-row justify-center items-center m-8 ml-20'>
                         <a className="hover:underline">
                             <div className='font-light text-3xl text-center font-mushroom'>KAMIRAN KHALIL</div>
                         </a>
                     </div>
                 </Link>
 
-                <div className='flex flex-row justify-center items-center mx-20 flex-wrap'>
+                <div className='flex flex-row justify-center items-center mx-20 flex-wrap mt-8'>
                     <Link href='/paintings'>
                         <div
                             className={`font-mushroom p-4 cursor-pointer border-b-2 border-solid ${selected === 'paintings' ? 'border-gray-400' : 'border-transparent'} hover:border-gray-300`}
