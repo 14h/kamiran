@@ -26,7 +26,7 @@ export default function About() {
 
                             <tr>
                                 <td>2016-2017</td>
-                                <td>„Meisterschüler“ by Prof. Ursula Neugebauer Fine Arts in UdK -Berlin(Germany)</td>
+                                <td>„Meisterschüler“ Fine Arts in UdK -Berlin(Germany)</td>
                             </tr>
                             <tr>
                                 <td>2009</td>
@@ -53,6 +53,10 @@ export default function About() {
                             <tr>
                                 <td/>
                                 <td><h1>Shared Exhibition <span className="auswahl">(selection)</span></h1></td>
+                            </tr>
+                            <tr>
+                                <td>2020</td>
+                                <td>Azimut Gallery/ Berlin (Germany)</td>
                             </tr>
                             <tr>
                                 <td>2019</td>
