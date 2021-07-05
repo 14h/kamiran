@@ -15,12 +15,12 @@ export default function Header({selected}) {
                 id="header-container"
             >
                 <Link href="/">
-                    <div className="flex flex-row items-center justify-center ml-4 mt-4 lg:ml-20 font-light text-3xl font-mushroom font-normal" >
+                    <div className="flex flex-row items-center justify-center ml-4 lg:ml-20 font-light text-3xl font-mushroom font-normal" >
                         KAMIRAN KHALIL
                     </div>
                 </Link>
 
-                <div className='lg:hidden mx-4 mt-4'>
+                <div className='lg:hidden mx-4'>
                     <input onChange={() => setOpen(!open)} id="toggle" type="checkbox" />
                     <label className="hamburger" htmlFor="toggle">
                         <div className="top"/>

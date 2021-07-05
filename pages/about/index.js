@@ -37,15 +37,21 @@ export default function About() {
                             </tr>
                             <tr>
                                 <td/>
-                                <td><h1>Solo Exhibition</h1></td>
+                                <td><h1 style={{fontSize: '28px', marginTop: '10px', marginBottom: '10px'}}>Solo Exhibitions</h1></td>
                             </tr>
 
                             <tr>
-                                <td>2019</td>
+                                <td>
+                                    <div>2019</div>
+                                    <div>&nbsp;</div>
+                                </td>
                                 <td>"With illusions" Lawrence Gallery, Berlin (Germany )</td>
                             </tr>
                             <tr>
-                                <td>2015</td>
+                                <td>
+                                    <div>2015</div>
+                                    <div>&nbsp;</div>
+                                </td>
                                 <td>Gallery Khawatem Art & Jewelry / Beirut (Libanon)</td>
                             </tr>
                             <tr>
@@ -55,7 +61,7 @@ export default function About() {
 
                             <tr>
                                 <td/>
-                                <td><h1>Shared Exhibition <span className="auswahl">(selection)</span></h1></td>
+                                <td><h1 style={{fontSize: '28px', marginTop: '10px', marginBottom: '10px'}}>Shared Exhibitions <span className="auswahl">(selection)</span></h1></td>
                             </tr>
                             <tr>
                                 <td>2020</td>
@@ -70,35 +76,60 @@ export default function About() {
                                 <td>Konsthallen Sandviken / Sweden</td>
                             </tr>
                             <tr>
-                                <td>2017</td>
+                                <td>
+                                    <div>2017</div>
+                                    <div>&nbsp;</div>
+                                </td>
                                 <td>University of Fine Arts Berlin -UdK tour /Rundgang- /Berlin (Germany)</td>
                             </tr>
                             <tr>
-                                <td>2016</td>
+                                <td>
+                                    <div>2016</div>
+                                    <div>&nbsp;</div>
+                                </td>
                                 <td>92 Art Gallery - 1x1 - through Berlin Art Week / Berlin (Germany)</td>
                             </tr>
                             <tr>
-                                <td>2016</td>
+                                <td>
+                                    <div>2016</div>
+                                    <div>&nbsp;</div>
+                                </td>
                                 <td>Artscoops -The Middle East Modern and Contemporary Auction- / Beirut (Libanon)</td>
                             </tr>
                             <tr>
-                                <td>2015</td>
+                                <td>
+                                    <div>2015</div>
+                                    <div>&nbsp;</div>
+                                </td>
                                 <td>Tajalliyat art Gallery -The Woman Through the Eyes- / Beirut (Libanon)</td>
                             </tr>
                             <tr>
-                                <td>2013</td>
+                                <td>
+                                    <div>2013</div>
+                                    <div>&nbsp;</div>
+                                </td>
                                 <td>Art Center -Artists from Syrian and Bahrain- /Manama ( Bahrain)</td>
                             </tr>
                             <tr>
-                                <td>2010</td>
+                                <td>
+                                    <div>2010</div>
+                                    <div>&nbsp;</div>
+                                </td>
                                 <td>Konsthallen Sandviken - Paintings from The Middle- / Sandviken (Sweden)</td>
                             </tr>
                             <tr>
-                                <td>2010</td>
+                                <td>
+                                    <div>2010</div>
+                                    <div>&nbsp;</div>
+                                </td>
                                 <td>National Library -In The Middle of the Road- /Damascus ( Syria)</td>
                             </tr>
                             <tr>
-                                <td>2010</td>
+                                <td>
+                                    <div>2010</div>
+                                    <div>&nbsp;</div>
+                                    <div>&nbsp;</div>
+                                </td>
                                 <td>French Cultural Center- Exhibition of Graduates of the Faculty of Fine Arts 2009-/
                                     Damascus (
                                     Syria)
@@ -110,13 +141,20 @@ export default function About() {
                                 <td>Springs Exhibitions in Khan Asaád Basha-/Old City of Damascus ( Syria)</td>
                             </tr>
                             <tr>
-                                <td>2007</td>
+                                <td>
+                                    <div>2007</div>
+                                    <div>&nbsp;</div>
+                                </td>
                                 <td>Faculty of Fine Arts “ Workshop” - Artists of Mediterranean Sea -/ Damascus (
                                     Syria)
                                 </td>
                             </tr>
                             <tr>
-                                <td>2007</td>
+                                <td>
+                                    <div>2007</div>
+                                    <div>&nbsp;</div>
+                                    <div>&nbsp;</div>
+                                </td>
                                 <td>–“Workshop in Palmyra “ for Students of the Faculty of Fine Arts in Damascus/
                                     Palmyra ( Syria)
                                 </td>
@@ -146,7 +184,7 @@ export default function About() {
                             </tr>
                             <tr>
                                 <td/>
-                                <td><h1>Einzelausstellungen</h1></td>
+                                <td><h1 style={{fontSize: '28px', marginTop: '10px', marginBottom: '10px'}}>Einzelausstellungen</h1></td>
                             </tr>
 
                             <tr>
@@ -163,7 +201,7 @@ export default function About() {
                             </tr>
                             <tr>
                                 <td/>
-                                <td><h1>Gruppenausstellungen & Workshops <span className="auswahl">(Auswahl)</span></h1>
+                                <td><h1 style={{fontSize: '28px', marginTop: '10px', marginBottom: '10px'}}>Gruppenausstellungen & Workshops <span className="auswahl">(Auswahl)</span></h1>
                                 </td>
                             </tr>
                             <tr>
@@ -175,7 +213,10 @@ export default function About() {
                                 <td>Konsthallen Sandviken “ Syrian Aesthetical Scream “ / Schweden</td>
                             </tr>
                             <tr>
-                                <td>2017</td>
+                                <td>
+                                    <div>2017</div>
+                                    <div>&nbsp;</div>
+                                </td>
                                 <td>Universität der Bildende Künste Berlin UDK ,Rundgang der UDK / Berlin</td>
                             </tr>
                             <tr>

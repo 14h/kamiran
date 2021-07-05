@@ -390,8 +390,8 @@ header .social .btn {
 
 /* Hamburger */
 .hamburger {
-    height: 36px;
-    width: 36px;
+    height: 32px;
+    width: 32px;
     margin: 10px;
     display: -ms-grid;
     display: grid;
@@ -451,8 +451,13 @@ header .social .btn {
 
 .nav-overlay {
     background: rgba(0,0,0,.7);
-    top: 78px;
+    top: 59px;
     color: #FFF;
     font-size: 24px;
     padding-top: 72px
+}
+
+table tr td:nth-child(1)  {
+    padding-right: 32px;
+    min-height: 32px
 }
