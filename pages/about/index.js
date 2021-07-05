@@ -28,7 +28,10 @@ export default function About() {
                             </tr>
 
                             <tr>
-                                <td>2016-2017</td>
+                                <td>
+                                    <div>2017</div>
+                                    <div>&nbsp;</div>
+                                </td>
                                 <td>„Meisterschüler“ Fine Arts in UdK -Berlin(Germany)</td>
                             </tr>
                             <tr>
@@ -137,7 +140,10 @@ export default function About() {
                             </tr>
 
                             <tr>
-                                <td>2007-2009</td>
+                                <td>
+                                    <div>2007-</div>
+                                    <div>2009</div>
+                                </td>
                                 <td>Springs Exhibitions in Khan Asaád Basha-/Old City of Damascus ( Syria)</td>
                             </tr>
                             <tr>
@@ -251,7 +257,10 @@ export default function About() {
                             </tr>
 
                             <tr>
-                                <td>2007-2009</td>
+                                <td>
+                                    <div>2007-</div>
+                                    <div>2009</div>
+                                </td>
                                 <td>Jährliche Ausstellung „Frühling“ im Khan Asaád Basha“/Alt-Damaskus</td>
                             </tr>
                             <tr>

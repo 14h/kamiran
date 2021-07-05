@@ -62,6 +62,10 @@ body {
     margin-left: 5%;
     text-align: left;
     margin-bottom: 50px;
+    font-family: arial!important;
+}
+#About table * {
+    font-family: arial!important;
 }
 #About td{
     padding-top:25px;
