@@ -3,15 +3,15 @@ import Head from 'next/head'
 export default function Meta() {
     return (
         <Head>
-            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119401934-1"/>
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-24CNXL6BLN"/>
             <script
                 dangerouslySetInnerHTML={{
                     __html: `
                         window.dataLayer = window.dataLayer || [];
                         function gtag(){dataLayer.push(arguments);}
                         gtag('js', new Date());
-        
-                        gtag('config', 'UA-119401934-1');
+                    
+                        gtag('config', 'G-24CNXL6BLN');
                     `
             }}
           />
