@@ -387,3 +387,64 @@ header .social .btn {
     line-height: 26px;
     font-family: "Dosis", arial, tahoma, verdana;
 }
+
+/* Hamburger */
+.hamburger {
+    height: 36px;
+    width: 36px;
+    margin: 10px;
+    display: -ms-grid;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    z-index: 99990;
+
+}
+
+.hamburger div {
+    background-color: #726f77;
+    position: relative;
+    width: 26px;
+    height: 2px;
+    margin-top: 7px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+#toggle {
+    display: none;
+}
+
+#toggle:checked + .hamburger .top {
+    -webkit-transform: rotate(-43deg);
+    transform: rotate(-43deg);
+    margin-top: 15.5px;
+}
+
+#toggle:checked + .hamburger .meat {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin-top: -2px;
+}
+
+#toggle:checked + .hamburger .bottom {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+#toggle:checked ~ .menu {
+    height: 340px;
+}
+
+#header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid #aaa;
+    margin: 4px;
+    font-family: "Dosis", arial, tahoma, verdana;
+}
+
+#header-container a:link {
+    text-decoration: none;
+}

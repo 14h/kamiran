@@ -1,6 +1,10 @@
+import {useState} from 'react';
 import Link from 'next/link'
 
+
 export default function Header({selected}) {
+    const [lang, setLang] = useState('en');
+    const [open, setOpen] = useState(false);
 
 
     return (
@@ -8,17 +12,24 @@ export default function Header({selected}) {
             className='fixed top-0 left-0 right-0 z-50 bg-white'
         >
             <div
-                className="container-l mx-auto lg:flex flex-row justify-between items-center"
+                id="header-container"
             >
                 <Link href="/">
-                    <div className='flex flex-row justify-center items-center m-8 ml-20'>
-                        <a className="hover:underline">
-                            <div className='font-light text-3xl text-center font-mushroom'>KAMIRAN KHALIL</div>
-                        </a>
+                    <div className="flex flex-row items-center justify-center ml-4 mt-4 lg:ml-20 font-light text-3xl font-mushroom font-normal" >
+                        KAMIRAN KHALIL
                     </div>
                 </Link>
 
-                <div className='flex flex-row justify-center items-center mx-20 flex-wrap mt-8'>
+                <div className='lg:hidden mx-4 mt-4'>
+                    <input onChange={() => setOpen(!open)} id="toggle" type="checkbox" />
+                    <label className="hamburger" htmlFor="toggle">
+                        <div className="top"/>
+                        <div className="meat"/>
+                        <div className="bottom"/>
+                    </label>
+                </div>
+
+                <div className='hidden lg:flex flex-row justify-center items-center mx-20 flex-wrap mt-8'>
                     <Link href='/paintings'>
                         <div
                             className={`font-mushroom p-4 cursor-pointer border-b-2 border-solid ${selected === 'paintings' ? 'border-gray-400' : 'border-transparent'} hover:border-gray-300`}
