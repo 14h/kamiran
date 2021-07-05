@@ -29,31 +29,31 @@ export default function Header({selected}) {
                     </label>
                 </div>
 
-                <div className={`${!open && 'hidden'} lg:hidden fixed top-80 left-0 right-0 bottom-0 flex justify-center items-center flex-col bg-white`}>
+                <div className={`${!open && 'hidden'} nav-overlay lg:hidden fixed left-0 right-0 bottom-0 flex justify-start items-center flex-col `}>
                     <Link href='/paintings'>
-                        <div className="p-4 cursor-pointer">
-                            PAINTINGS
+                        <div className="p-6 cursor-pointer">
+                            Paintings
                         </div>
                     </Link>
                     <Link href='/sketches'>
-                        <div className="p-4 cursor-pointer">
-                            SKETCHES
+                        <div className="p-6 cursor-pointer">
+                            Sketches
                         </div>
                     </Link>
                     <Link href='/media'>
-                        <div className="p-4 cursor-pointer">
-                            MEDIA AND PHOTOS
+                        <div className="p-6 cursor-pointer">
+                            Media and photos
                         </div>
                     </Link>
                     <Link href='/about'>
-                        <div className="p-4 cursor-pointer">
-                            ABOUT
+                        <div className="p-6 cursor-pointer">
+                            About
                         </div>
                     </Link>
 
                     <a href="mailto:Kamiranart@hotmail.com" target="" name="kamirankhalil">
-                        <div className="p-4 cursor-pointer">
-                            CONTACT
+                        <div className="p-6 cursor-pointer">
+                            Contact
                         </div>
                     </a>
                 </div>

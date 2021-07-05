@@ -449,6 +449,10 @@ header .social .btn {
     text-decoration: none;
 }
 
-.top-80 {
-    top: 80px
+.nav-overlay {
+    background: rgba(0,0,0,.7);
+    top: 78px;
+    color: #FFF;
+    font-size: 24px;
+    padding-top: 72px
 }
