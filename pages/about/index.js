@@ -18,9 +18,12 @@ export default function About() {
                 <Container>
                     <Header selected='about'/>
                     <div className='pt-32' id="About">
+                        <div className='name-header'>
+                            Kamiran Khalil
+                        </div>
                         {lang === 'en' ? (<table>
                             <tr>
-                                <td>Born in Aleppo, Syrian 1986</td>
+                                <td>Born in Aleppo, <br/>Syrian 1986</td>
                                 <td><br/>Settled in Berlin.</td>
                             </tr>
 
