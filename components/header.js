@@ -29,40 +29,59 @@ export default function Header({selected}) {
                     </label>
                 </div>
 
-                <div className='hidden lg:flex flex-row justify-center items-center mx-20 flex-wrap mt-8'>
+                <div className={`${!open && 'hidden'} lg:hidden fixed top-80 left-0 right-0 bottom-0 flex justify-center items-center flex-col bg-white`}>
                     <Link href='/paintings'>
-                        <div
-                            className={`font-mushroom p-4 cursor-pointer border-b-2 border-solid ${selected === 'paintings' ? 'border-gray-400' : 'border-transparent'} hover:border-gray-300`}
-                        >
+                        <div className="p-4 cursor-pointer">
                             PAINTINGS
                         </div>
                     </Link>
                     <Link href='/sketches'>
-                        <div
-                            className={`font-mushroom p-4 cursor-pointer border-b-2 border-solid ${selected === 'sketches' ? 'border-gray-400' : 'border-transparent'} hover:border-gray-300`}
-                        >
+                        <div className="p-4 cursor-pointer">
                             SKETCHES
                         </div>
                     </Link>
                     <Link href='/media'>
-                        <div
-                            className={`font-mushroom p-4 cursor-pointer border-b-2 border-solid ${selected === 'media' ? 'border-gray-400' : 'border-transparent'} hover:border-gray-300`}
-                        >
+                        <div className="p-4 cursor-pointer">
                             MEDIA AND PHOTOS
                         </div>
                     </Link>
                     <Link href='/about'>
-                        <div
-                            className={`font-mushroom p-4 cursor-pointer border-b-2 border-solid ${selected === 'about' ? 'border-gray-400' : 'border-transparent'} hover:border-gray-300`}
-                        >
+                        <div className="p-4 cursor-pointer">
                             ABOUT
                         </div>
                     </Link>
 
                     <a href="mailto:Kamiranart@hotmail.com" target="" name="kamirankhalil">
-                        <div
-                            className={`font-mushroom p-4 cursor-pointer border-b-2 border-solid border-transparent hover:border-gray-300`}
-                        >
+                        <div className="p-4 cursor-pointer">
+                            CONTACT
+                        </div>
+                    </a>
+                </div>
+
+                <div className='hidden lg:flex flex-row justify-center items-center mx-20 flex-wrap mt-8'>
+                    <Link href='/paintings'>
+                        <div className="p-4 cursor-pointer">
+                            PAINTINGS
+                        </div>
+                    </Link>
+                    <Link href='/sketches'>
+                        <div className="p-4 cursor-pointer">
+                            SKETCHES
+                        </div>
+                    </Link>
+                    <Link href='/media'>
+                        <div className="p-4 cursor-pointer">
+                            MEDIA AND PHOTOS
+                        </div>
+                    </Link>
+                    <Link href='/about'>
+                        <div className="p-4 cursor-pointer">
+                            ABOUT
+                        </div>
+                    </Link>
+
+                    <a href="mailto:Kamiranart@hotmail.com" target="" name="kamirankhalil">
+                        <div className="p-4 cursor-pointer">
                             CONTACT
                         </div>
                     </a>
