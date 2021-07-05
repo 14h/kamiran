@@ -446,6 +446,7 @@ header .social .btn {
     justify-content: space-between;
     border-bottom: 2px solid #aaa;
     margin: 4px;
+    margin-bottom: 1px;
     font-family: "Dosis", arial, tahoma, verdana;
 }
 
