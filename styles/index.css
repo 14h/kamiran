@@ -17,6 +17,10 @@ body {
     top: 5rem;
 }
 
+.ml-3 {
+    margin-left: 1.1rem;
+}
+
 .blur {
     filter: blur(4px);
 }
