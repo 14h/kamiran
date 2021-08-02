@@ -20,7 +20,7 @@ export default function Header({selected}) {
                     </div>
                 </Link>
 
-                <div className='lg:hidden mx-4'>
+                <div className='lg:hidden mx-2'>
                     <input onChange={() => setOpen(!open)} id="toggle" type="checkbox" />
                     <label className="hamburger" htmlFor="toggle">
                         <div className="top"/>
