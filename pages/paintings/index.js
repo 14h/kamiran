@@ -18,6 +18,9 @@ export default function Projects({projects}) {
                 </Head>
                 <Container>
                     <Header selected='paintings' />
+                    <span className="text-xs ml-6 pl-0 lg:ml-20 lg:pl-2 font-light">
+                        paintings
+                    </span>
                     <Grid projects={projects}/>
                 </Container>
             </Layout>

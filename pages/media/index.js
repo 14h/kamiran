@@ -18,6 +18,9 @@ export default function Media({projects}) {
                 </Head>
                 <Container>
                     <Header selected='media' />
+                    <span className="text-xs ml-6 pl-0 lg:ml-20 lg:pl-2 font-light">
+                        media
+                    </span>
                     <Grid projects={projects}/>
                     <hr/>
                     <h2 className="p-8">MIT ILLUSION , Berlin, 2019 : <a
