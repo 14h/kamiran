@@ -77,8 +77,8 @@ body {
 
 #About{
     text-align: center;
-    padding-right: 4px;
-    padding-left: 4px;
+    padding-right: 8px;
+    padding-left: 8px;
 }
 header:after, #timeline .timeline-item:after, header:before, #timeline .timeline-item:before {
     content: '';

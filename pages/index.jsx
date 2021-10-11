@@ -7,7 +7,6 @@ import {get_assets, get_main} from "../lib/api";
 import Slider from "../components/slider";
 
 export default function Index({main}) {
-    console.log(main)
     if (!main) {
         return null;
     }
@@ -20,12 +19,12 @@ export default function Index({main}) {
                         Kamiran Khalil
                     </title>
                 </Head>
-                {/*<Container>*/}
-                {/*    <Header/>*/}
-                {/*    <Slider*/}
-                {/*        slides={main}*/}
-                {/*    />*/}
-                {/*</Container>*/}
+                <Container>
+                    <Header/>
+                    <Slider
+                        slides={main}
+                    />
+                </Container>
             </Layout>
         </div>
     )

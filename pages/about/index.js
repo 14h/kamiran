@@ -40,7 +40,7 @@ export default function About() {
                             </tr>
                             <tr>
                                 <td/>
-                                <td><h1 style={{fontSize: '28px', marginTop: '10px', marginBottom: '10px'}}>Solo Exhibitions</h1></td>
+                                <td><h1 style={{fontSize: '26px', marginTop: '10px', marginBottom: '10px'}}>Solo Exhibitions</h1></td>
                             </tr>
 
                             <tr>
@@ -64,7 +64,7 @@ export default function About() {
 
                             <tr>
                                 <td/>
-                                <td><h1 style={{fontSize: '28px', marginTop: '10px', marginBottom: '10px'}}>Shared Exhibitions <span className="auswahl">(selection)</span></h1></td>
+                                <td><h1 style={{fontSize: '26px', marginTop: '10px', marginBottom: '10px'}}>Shared Exhibitions <span className="auswahl">(selection)</span></h1></td>
                             </tr>
                             <tr>
                                 <td>2020</td>
@@ -190,7 +190,7 @@ export default function About() {
                             </tr>
                             <tr>
                                 <td/>
-                                <td><h1 style={{fontSize: '28px', marginTop: '10px', marginBottom: '10px'}}>Einzelausstellungen</h1></td>
+                                <td><h1 style={{fontSize: '26px', marginTop: '10px', marginBottom: '10px'}}>Einzelausstellungen</h1></td>
                             </tr>
 
                             <tr>
@@ -207,7 +207,7 @@ export default function About() {
                             </tr>
                             <tr>
                                 <td/>
-                                <td><h1 style={{fontSize: '28px', marginTop: '10px', marginBottom: '10px'}}>Gruppenausstellungen & Workshops <span className="auswahl">(Auswahl)</span></h1>
+                                <td><h1 style={{fontSize: '26px', marginTop: '10px', marginBottom: '10px'}}>Gruppenausstellungen & Workshops <span className="auswahl">(Auswahl)</span></h1>
                                 </td>
                             </tr>
                             <tr>
